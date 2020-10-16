@@ -2,20 +2,15 @@ import React from "react";
 
 function App(props) {
   return (
-    <div className="todoapp stack-large">
+    <div>
       <h1 className="text-center mt-4">To Do List</h1>
       <form>
-        {/* <h2 className="label-wrapper">
-          <label htmlFor="new-todo-input" className="label__lg">
-            What needs to be done?
-          </label>
-        </h2> */}
         <div className="input-group mb-3">
-          <div className="input-group-prepend">
+         
             <button type="submit" className="btn btn-primary">
               +
             </button>
-          </div>
+          
           <input
             type="text"
             className="form-control"
@@ -25,7 +20,7 @@ function App(props) {
           />
         </div>
       </form>
-      <div className="text-center">
+      <div className="text-center m-4">
         <button type="button" className="btn toggle-btn btn-outline-dark" aria-pressed="false">
           <span>Show all</span>
         </button>
@@ -40,48 +35,48 @@ function App(props) {
       <div className="col-8">
         <div>
           <div>
-            <input id="todo-0" type="checkbox" />
+            <input type="checkbox" />
             <h2>
               Example 1
             </h2>
           </div>
           <div className="btn-group">
-            <button type="button" className="btn btn-outline-secondary">
+            <button type="button" className="btn btn-outline-secondary mb-2">
               Edit
             </button>
-            <button type="button" className="btn btn-outline-danger">
+            <button type="button" className="btn btn-outline-danger mb-2">
               Delete
             </button>
           </div>
         </div>
         <div>
           <div>
-            <input id="todo-1" type="checkbox" />
+            <input type="checkbox" />
             <h2>
               Example 2
             </h2>
           </div>
           <div className="btn-group">
-            <button type="button" className="btn btn-outline-secondary">
+            <button type="button" className="btn btn-outline-secondary mb-2">
               Edit
             </button>
-            <button type="button" className="btn btn-outline-danger">
+            <button type="button" className="btn btn-outline-danger mb-2">
               Delete
             </button>
           </div>
         </div>
         <div className="todo stack-small">
           <div>
-            <input id="todo-2" type="checkbox" />
+            <input type="checkbox" />
             <h2>
               Example 3
             </h2>
           </div>
           <div className="btn-group">
-            <button type="button" className="btn btn-outline-secondary">
+            <button type="button" className="btn btn-outline-secondary mb-2">
               Edit
             </button>
-            <button type="button" className="btn btn-outline-danger">
+            <button type="button" className="btn btn-outline-danger mb-2">
               Delete
             </button>
           </div>
